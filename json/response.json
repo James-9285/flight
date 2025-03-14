@@ -1,0 +1,4186 @@
+[
+    {
+        "totalPrice": "USD847.00",
+        "basePrice": "USD390.00",
+        "taxes": "USD457.00",
+        "platingCarrier": "RJ",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P0DT6H10M0S",
+                    "platingCarrier": "RJ",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "AMM",
+                            "group": 0,
+                            "departure": "2025-03-10T06:55:00.000+03:00",
+                            "arrival": "2025-03-10T08:45:00.000+03:00",
+                            "airline": "RJ",
+                            "operatingAirline": null,
+                            "flightNumber": "811",
+                            "uapi_segment_ref": "G2oiNVUqWDKA4NejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA4NejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "AMM",
+                                    "departure": "2025-03-10T06:55:00.000+03:00",
+                                    "flightTime": "110",
+                                    "travelTime": "370",
+                                    "equipment": "321"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "321"
+                            ],
+                            "duration": [
+                                "110"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Q",
+                            "baggage": [
+                                {
+                                    "units": "piece",
+                                    "amount": 1
+                                }
+                            ],
+                            "fareBasisCode": "QANEQ",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "AMM",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-10T10:25:00.000+03:00",
+                            "arrival": "2025-03-10T13:05:00.000+03:00",
+                            "airline": "RJ",
+                            "operatingAirline": null,
+                            "flightNumber": "165",
+                            "uapi_segment_ref": "G2oiNVUqWDKA6NejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA6NejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "AMM",
+                                    "destination": "IST",
+                                    "departure": "2025-03-10T10:25:00.000+03:00",
+                                    "flightTime": "160",
+                                    "travelTime": "370",
+                                    "equipment": "E95"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "E95"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Q",
+                            "baggage": [
+                                {
+                                    "units": "piece",
+                                    "amount": 1
+                                }
+                            ],
+                            "fareBasisCode": "QANEQ",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT7H0M0S",
+                    "platingCarrier": "RJ",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "AMM",
+                            "group": 1,
+                            "departure": "2025-03-20T20:55:00.000+03:00",
+                            "arrival": "2025-03-20T23:20:00.000+03:00",
+                            "airline": "RJ",
+                            "operatingAirline": null,
+                            "flightNumber": "168",
+                            "uapi_segment_ref": "G2oiNVUqWDKA8NejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA8NejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "AMM",
+                                    "departure": "2025-03-20T20:55:00.000+03:00",
+                                    "flightTime": "145",
+                                    "travelTime": "420",
+                                    "equipment": "320"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "320"
+                            ],
+                            "duration": [
+                                "145"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Q",
+                            "baggage": [
+                                {
+                                    "units": "piece",
+                                    "amount": 1
+                                }
+                            ],
+                            "fareBasisCode": "QANEQ",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "AMM",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-21T02:20:00.000+03:00",
+                            "arrival": "2025-03-21T03:55:00.000+03:00",
+                            "airline": "RJ",
+                            "operatingAirline": null,
+                            "flightNumber": "810",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+NejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+NejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "AMM",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-21T02:20:00.000+03:00",
+                                    "flightTime": "95",
+                                    "travelTime": "420",
+                                    "equipment": "788"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "788"
+                            ],
+                            "duration": [
+                                "95"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Q",
+                            "baggage": [
+                                {
+                                    "units": "piece",
+                                    "amount": 1
+                                }
+                            ],
+                            "fareBasisCode": "QANEQ",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD847.00",
+                "basePrice": "USD390.00",
+                "taxes": "USD457.00",
+                "uapi_fare_reference": "G2oiNVUqWDKA3NejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD436.10",
+                "basePrice": "USD205.00",
+                "taxes": "USD231.10"
+            },
+            "CNN": {
+                "totalPrice": "USD363.10",
+                "basePrice": "USD154.00",
+                "taxes": "USD209.10"
+            },
+            "INF": {
+                "totalPrice": "USD47.80",
+                "basePrice": "USD31.00",
+                "taxes": "USD16.80"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD847.00",
+        "basePrice": "USD390.00",
+        "taxes": "USD457.00",
+        "platingCarrier": "RJ",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P0DT23H10M0S",
+                    "platingCarrier": "RJ",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "AMM",
+                            "group": 0,
+                            "departure": "2025-03-10T20:35:00.000+03:00",
+                            "arrival": "2025-03-10T22:25:00.000+03:00",
+                            "airline": "RJ",
+                            "operatingAirline": null,
+                            "flightNumber": "815",
+                            "uapi_segment_ref": "G2oiNVUqWDKAVOejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAVOejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "AMM",
+                                    "departure": "2025-03-10T20:35:00.000+03:00",
+                                    "flightTime": "110",
+                                    "travelTime": "1390",
+                                    "equipment": "788"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "788"
+                            ],
+                            "duration": [
+                                "110"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Q",
+                            "baggage": [
+                                {
+                                    "units": "piece",
+                                    "amount": 1
+                                }
+                            ],
+                            "fareBasisCode": "QANEQ",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "AMM",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-11T17:05:00.000+03:00",
+                            "arrival": "2025-03-11T19:45:00.000+03:00",
+                            "airline": "RJ",
+                            "operatingAirline": null,
+                            "flightNumber": "167",
+                            "uapi_segment_ref": "G2oiNVUqWDKAYOejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAYOejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "AMM",
+                                    "destination": "IST",
+                                    "departure": "2025-03-11T17:05:00.000+03:00",
+                                    "flightTime": "160",
+                                    "travelTime": "1390",
+                                    "equipment": "290"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "290"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Q",
+                            "baggage": [
+                                {
+                                    "units": "piece",
+                                    "amount": 1
+                                }
+                            ],
+                            "fareBasisCode": "QANEQ",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT7H0M0S",
+                    "platingCarrier": "RJ",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "AMM",
+                            "group": 1,
+                            "departure": "2025-03-20T20:55:00.000+03:00",
+                            "arrival": "2025-03-20T23:20:00.000+03:00",
+                            "airline": "RJ",
+                            "operatingAirline": null,
+                            "flightNumber": "168",
+                            "uapi_segment_ref": "G2oiNVUqWDKA8NejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA8NejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "AMM",
+                                    "departure": "2025-03-20T20:55:00.000+03:00",
+                                    "flightTime": "145",
+                                    "travelTime": "420",
+                                    "equipment": "320"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "320"
+                            ],
+                            "duration": [
+                                "145"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Q",
+                            "baggage": [
+                                {
+                                    "units": "piece",
+                                    "amount": 1
+                                }
+                            ],
+                            "fareBasisCode": "QANEQ",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "AMM",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-21T02:20:00.000+03:00",
+                            "arrival": "2025-03-21T03:55:00.000+03:00",
+                            "airline": "RJ",
+                            "operatingAirline": null,
+                            "flightNumber": "810",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+NejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+NejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "AMM",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-21T02:20:00.000+03:00",
+                                    "flightTime": "95",
+                                    "travelTime": "420",
+                                    "equipment": "788"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "788"
+                            ],
+                            "duration": [
+                                "95"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "Q",
+                            "baggage": [
+                                {
+                                    "units": "piece",
+                                    "amount": 1
+                                }
+                            ],
+                            "fareBasisCode": "QANEQ",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD847.00",
+                "basePrice": "USD390.00",
+                "taxes": "USD457.00",
+                "uapi_fare_reference": "G2oiNVUqWDKAGPejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD436.10",
+                "basePrice": "USD205.00",
+                "taxes": "USD231.10"
+            },
+            "CNN": {
+                "totalPrice": "USD363.10",
+                "basePrice": "USD154.00",
+                "taxes": "USD209.10"
+            },
+            "INF": {
+                "totalPrice": "USD47.80",
+                "basePrice": "USD31.00",
+                "taxes": "USD16.80"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD864.20",
+        "basePrice": "USD350.00",
+        "taxes": "USD514.20",
+        "platingCarrier": "TK",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P0DT3H15M0S",
+                    "platingCarrier": "TK",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-10T02:55:00.000+03:00",
+                            "arrival": "2025-03-10T06:10:00.000+03:00",
+                            "airline": "TK",
+                            "operatingAirline": null,
+                            "flightNumber": "303",
+                            "uapi_segment_ref": "G2oiNVUqWDKAIPejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAIPejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "originTerminal": "A",
+                                    "destination": "IST",
+                                    "departure": "2025-03-10T02:55:00.000+03:00",
+                                    "flightTime": "195",
+                                    "travelTime": "195",
+                                    "equipment": "32B"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "32B"
+                            ],
+                            "duration": [
+                                "195"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "V",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 15
+                                }
+                            ],
+                            "fareBasisCode": "VLYCLR",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT3H0M0S",
+                    "platingCarrier": "TK",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-20T22:00:00.000+03:00",
+                            "arrival": "2025-03-21T01:00:00.000+03:00",
+                            "airline": "TK",
+                            "operatingAirline": null,
+                            "flightNumber": "302",
+                            "uapi_segment_ref": "G2oiNVUqWDKAKPejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAKPejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "BGW",
+                                    "destinationTerminal": "A",
+                                    "departure": "2025-03-20T22:00:00.000+03:00",
+                                    "flightTime": "180",
+                                    "travelTime": "180",
+                                    "equipment": "32B"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "32B"
+                            ],
+                            "duration": [
+                                "180"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "V",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 15
+                                }
+                            ],
+                            "fareBasisCode": "VLYCLR",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD864.20",
+                "basePrice": "USD350.00",
+                "taxes": "USD514.20",
+                "uapi_fare_reference": "G2oiNVUqWDKAHPejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD457.10",
+                "basePrice": "USD189.00",
+                "taxes": "USD268.10"
+            },
+            "CNN": {
+                "totalPrice": "USD388.10",
+                "basePrice": "USD142.00",
+                "taxes": "USD246.10"
+            },
+            "INF": {
+                "totalPrice": "USD19.00",
+                "basePrice": "USD19.00",
+                "taxes": "USD0.00"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD864.20",
+        "basePrice": "USD350.00",
+        "taxes": "USD514.20",
+        "platingCarrier": "TK",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P0DT3H20M0S",
+                    "platingCarrier": "TK",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-10T06:25:00.000+03:00",
+                            "arrival": "2025-03-10T09:45:00.000+03:00",
+                            "airline": "TK",
+                            "operatingAirline": null,
+                            "flightNumber": "803",
+                            "uapi_segment_ref": "G2oiNVUqWDKAbPejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAbPejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "originTerminal": "A",
+                                    "destination": "IST",
+                                    "departure": "2025-03-10T06:25:00.000+03:00",
+                                    "flightTime": "200",
+                                    "travelTime": "200",
+                                    "equipment": "32Q"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "32Q"
+                            ],
+                            "duration": [
+                                "200"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "V",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 15
+                                }
+                            ],
+                            "fareBasisCode": "VLYCLR",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT3H0M0S",
+                    "platingCarrier": "TK",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-20T22:00:00.000+03:00",
+                            "arrival": "2025-03-21T01:00:00.000+03:00",
+                            "airline": "TK",
+                            "operatingAirline": null,
+                            "flightNumber": "302",
+                            "uapi_segment_ref": "G2oiNVUqWDKAKPejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAKPejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "BGW",
+                                    "destinationTerminal": "A",
+                                    "departure": "2025-03-20T22:00:00.000+03:00",
+                                    "flightTime": "180",
+                                    "travelTime": "180",
+                                    "equipment": "32B"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "32B"
+                            ],
+                            "duration": [
+                                "180"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "V",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 15
+                                }
+                            ],
+                            "fareBasisCode": "VLYCLR",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD864.20",
+                "basePrice": "USD350.00",
+                "taxes": "USD514.20",
+                "uapi_fare_reference": "G2oiNVUqWDKA4PejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD457.10",
+                "basePrice": "USD189.00",
+                "taxes": "USD268.10"
+            },
+            "CNN": {
+                "totalPrice": "USD388.10",
+                "basePrice": "USD142.00",
+                "taxes": "USD246.10"
+            },
+            "INF": {
+                "totalPrice": "USD19.00",
+                "basePrice": "USD19.00",
+                "taxes": "USD0.00"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD1156.00",
+        "basePrice": "USD699.00",
+        "taxes": "USD457.00",
+        "platingCarrier": "RJ",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P0DT6H10M0S",
+                    "platingCarrier": "RJ",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "AMM",
+                            "group": 0,
+                            "departure": "2025-03-10T06:55:00.000+03:00",
+                            "arrival": "2025-03-10T08:45:00.000+03:00",
+                            "airline": "RJ",
+                            "operatingAirline": null,
+                            "flightNumber": "811",
+                            "uapi_segment_ref": "G2oiNVUqWDKA4NejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA4NejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "AMM",
+                                    "departure": "2025-03-10T06:55:00.000+03:00",
+                                    "flightTime": "110",
+                                    "travelTime": "370",
+                                    "equipment": "321"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "321"
+                            ],
+                            "duration": [
+                                "110"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "M",
+                            "baggage": [
+                                {
+                                    "units": "piece",
+                                    "amount": 1
+                                }
+                            ],
+                            "fareBasisCode": "MSXEQ",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "AMM",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-10T10:25:00.000+03:00",
+                            "arrival": "2025-03-10T13:05:00.000+03:00",
+                            "airline": "RJ",
+                            "operatingAirline": null,
+                            "flightNumber": "165",
+                            "uapi_segment_ref": "G2oiNVUqWDKA6NejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA6NejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "AMM",
+                                    "destination": "IST",
+                                    "departure": "2025-03-10T10:25:00.000+03:00",
+                                    "flightTime": "160",
+                                    "travelTime": "370",
+                                    "equipment": "E95"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "E95"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "M",
+                            "baggage": [
+                                {
+                                    "units": "piece",
+                                    "amount": 1
+                                }
+                            ],
+                            "fareBasisCode": "MSXEQ",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT7H0M0S",
+                    "platingCarrier": "RJ",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "AMM",
+                            "group": 1,
+                            "departure": "2025-03-20T20:55:00.000+03:00",
+                            "arrival": "2025-03-20T23:20:00.000+03:00",
+                            "airline": "RJ",
+                            "operatingAirline": null,
+                            "flightNumber": "168",
+                            "uapi_segment_ref": "G2oiNVUqWDKA8NejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA8NejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "AMM",
+                                    "departure": "2025-03-20T20:55:00.000+03:00",
+                                    "flightTime": "145",
+                                    "travelTime": "420",
+                                    "equipment": "320"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "320"
+                            ],
+                            "duration": [
+                                "145"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "M",
+                            "baggage": [
+                                {
+                                    "units": "piece",
+                                    "amount": 1
+                                }
+                            ],
+                            "fareBasisCode": "MSXEQ",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "AMM",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-21T02:20:00.000+03:00",
+                            "arrival": "2025-03-21T03:55:00.000+03:00",
+                            "airline": "RJ",
+                            "operatingAirline": null,
+                            "flightNumber": "810",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+NejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+NejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "AMM",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-21T02:20:00.000+03:00",
+                                    "flightTime": "95",
+                                    "travelTime": "420",
+                                    "equipment": "788"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "788"
+                            ],
+                            "duration": [
+                                "95"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "M",
+                            "baggage": [
+                                {
+                                    "units": "piece",
+                                    "amount": 1
+                                }
+                            ],
+                            "fareBasisCode": "MSXEQ",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD1156.00",
+                "basePrice": "USD699.00",
+                "taxes": "USD457.00",
+                "uapi_fare_reference": "G2oiNVUqWDKA3SejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD599.10",
+                "basePrice": "USD368.00",
+                "taxes": "USD231.10"
+            },
+            "CNN": {
+                "totalPrice": "USD485.10",
+                "basePrice": "USD276.00",
+                "taxes": "USD209.10"
+            },
+            "INF": {
+                "totalPrice": "USD71.80",
+                "basePrice": "USD55.00",
+                "taxes": "USD16.80"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD1156.00",
+        "basePrice": "USD699.00",
+        "taxes": "USD457.00",
+        "platingCarrier": "RJ",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P0DT23H10M0S",
+                    "platingCarrier": "RJ",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "AMM",
+                            "group": 0,
+                            "departure": "2025-03-10T20:35:00.000+03:00",
+                            "arrival": "2025-03-10T22:25:00.000+03:00",
+                            "airline": "RJ",
+                            "operatingAirline": null,
+                            "flightNumber": "815",
+                            "uapi_segment_ref": "G2oiNVUqWDKAVOejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAVOejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "AMM",
+                                    "departure": "2025-03-10T20:35:00.000+03:00",
+                                    "flightTime": "110",
+                                    "travelTime": "1390",
+                                    "equipment": "788"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "788"
+                            ],
+                            "duration": [
+                                "110"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "M",
+                            "baggage": [
+                                {
+                                    "units": "piece",
+                                    "amount": 1
+                                }
+                            ],
+                            "fareBasisCode": "MSXEQ",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "AMM",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-11T17:05:00.000+03:00",
+                            "arrival": "2025-03-11T19:45:00.000+03:00",
+                            "airline": "RJ",
+                            "operatingAirline": null,
+                            "flightNumber": "167",
+                            "uapi_segment_ref": "G2oiNVUqWDKAYOejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAYOejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "AMM",
+                                    "destination": "IST",
+                                    "departure": "2025-03-11T17:05:00.000+03:00",
+                                    "flightTime": "160",
+                                    "travelTime": "1390",
+                                    "equipment": "290"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "290"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "M",
+                            "baggage": [
+                                {
+                                    "units": "piece",
+                                    "amount": 1
+                                }
+                            ],
+                            "fareBasisCode": "MSXEQ",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT7H0M0S",
+                    "platingCarrier": "RJ",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "AMM",
+                            "group": 1,
+                            "departure": "2025-03-20T20:55:00.000+03:00",
+                            "arrival": "2025-03-20T23:20:00.000+03:00",
+                            "airline": "RJ",
+                            "operatingAirline": null,
+                            "flightNumber": "168",
+                            "uapi_segment_ref": "G2oiNVUqWDKA8NejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA8NejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "AMM",
+                                    "departure": "2025-03-20T20:55:00.000+03:00",
+                                    "flightTime": "145",
+                                    "travelTime": "420",
+                                    "equipment": "320"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "320"
+                            ],
+                            "duration": [
+                                "145"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "M",
+                            "baggage": [
+                                {
+                                    "units": "piece",
+                                    "amount": 1
+                                }
+                            ],
+                            "fareBasisCode": "MSXEQ",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "AMM",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-21T02:20:00.000+03:00",
+                            "arrival": "2025-03-21T03:55:00.000+03:00",
+                            "airline": "RJ",
+                            "operatingAirline": null,
+                            "flightNumber": "810",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+NejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+NejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "AMM",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-21T02:20:00.000+03:00",
+                                    "flightTime": "95",
+                                    "travelTime": "420",
+                                    "equipment": "788"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "788"
+                            ],
+                            "duration": [
+                                "95"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "M",
+                            "baggage": [
+                                {
+                                    "units": "piece",
+                                    "amount": 1
+                                }
+                            ],
+                            "fareBasisCode": "MSXEQ",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD1156.00",
+                "basePrice": "USD699.00",
+                "taxes": "USD457.00",
+                "uapi_fare_reference": "G2oiNVUqWDKA4TejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD599.10",
+                "basePrice": "USD368.00",
+                "taxes": "USD231.10"
+            },
+            "CNN": {
+                "totalPrice": "USD485.10",
+                "basePrice": "USD276.00",
+                "taxes": "USD209.10"
+            },
+            "INF": {
+                "totalPrice": "USD71.80",
+                "basePrice": "USD55.00",
+                "taxes": "USD16.80"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD2118.40",
+        "basePrice": "USD1487.00",
+        "taxes": "USD631.40",
+        "platingCarrier": "EK",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P0DT9H55M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "DXB",
+                            "group": 0,
+                            "departure": "2025-03-10T14:55:00.000+03:00",
+                            "arrival": "2025-03-10T18:15:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2073",
+                            "uapi_segment_ref": "G2oiNVUqWDKA6PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA6PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-10T14:55:00.000+03:00",
+                                    "flightTime": "140",
+                                    "travelTime": "595",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "140"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-10T20:50:00.000+04:00",
+                            "arrival": "2025-03-11T00:50:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2214",
+                            "uapi_segment_ref": "G2oiNVUqWDKA8PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA8PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "IST",
+                                    "departure": "2025-03-10T20:50:00.000+04:00",
+                                    "flightTime": "300",
+                                    "travelTime": "595",
+                                    "equipment": "73H"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "73H"
+                            ],
+                            "duration": [
+                                "300"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT12H5M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "DXB",
+                            "group": 1,
+                            "departure": "2025-03-20T01:50:00.000+03:00",
+                            "arrival": "2025-03-20T07:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2215",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-20T01:50:00.000+03:00",
+                                    "flightTime": "285",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "285"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-20T12:15:00.000+04:00",
+                            "arrival": "2025-03-20T13:55:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2072",
+                            "uapi_segment_ref": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-20T12:15:00.000+04:00",
+                                    "flightTime": "160",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD2118.40",
+                "basePrice": "USD1487.00",
+                "taxes": "USD631.40",
+                "uapi_fare_reference": "G2oiNVUqWDKA5PejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD1105.70",
+                "basePrice": "USD779.00",
+                "taxes": "USD326.70"
+            },
+            "CNN": {
+                "totalPrice": "USD898.70",
+                "basePrice": "USD594.00",
+                "taxes": "USD304.70"
+            },
+            "INF": {
+                "totalPrice": "USD114.00",
+                "basePrice": "USD114.00",
+                "taxes": "USD0.00"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD2118.40",
+        "basePrice": "USD1487.00",
+        "taxes": "USD631.40",
+        "platingCarrier": "EK",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P0DT13H25M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "DXB",
+                            "group": 0,
+                            "departure": "2025-03-10T11:25:00.000+03:00",
+                            "arrival": "2025-03-10T14:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": null,
+                            "flightNumber": "942",
+                            "uapi_segment_ref": "G2oiNVUqWDKAUQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAUQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "3",
+                                    "departure": "2025-03-10T11:25:00.000+03:00",
+                                    "flightTime": "130",
+                                    "travelTime": "805",
+                                    "equipment": "77L"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "77L"
+                            ],
+                            "duration": [
+                                "130"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-10T20:50:00.000+04:00",
+                            "arrival": "2025-03-11T00:50:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2214",
+                            "uapi_segment_ref": "G2oiNVUqWDKA8PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA8PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "IST",
+                                    "departure": "2025-03-10T20:50:00.000+04:00",
+                                    "flightTime": "300",
+                                    "travelTime": "595",
+                                    "equipment": "73H"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "73H"
+                            ],
+                            "duration": [
+                                "300"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT12H5M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "DXB",
+                            "group": 1,
+                            "departure": "2025-03-20T01:50:00.000+03:00",
+                            "arrival": "2025-03-20T07:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2215",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-20T01:50:00.000+03:00",
+                                    "flightTime": "285",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "285"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-20T12:15:00.000+04:00",
+                            "arrival": "2025-03-20T13:55:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2072",
+                            "uapi_segment_ref": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-20T12:15:00.000+04:00",
+                                    "flightTime": "160",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD2118.40",
+                "basePrice": "USD1487.00",
+                "taxes": "USD631.40",
+                "uapi_fare_reference": "G2oiNVUqWDKAGRejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD1105.70",
+                "basePrice": "USD779.00",
+                "taxes": "USD326.70"
+            },
+            "CNN": {
+                "totalPrice": "USD898.70",
+                "basePrice": "USD594.00",
+                "taxes": "USD304.70"
+            },
+            "INF": {
+                "totalPrice": "USD114.00",
+                "basePrice": "USD114.00",
+                "taxes": "USD0.00"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD2118.40",
+        "basePrice": "USD1487.00",
+        "taxes": "USD631.40",
+        "platingCarrier": "EK",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P0DT13H45M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "DXB",
+                            "group": 0,
+                            "departure": "2025-03-10T11:05:00.000+03:00",
+                            "arrival": "2025-03-10T14:25:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2403",
+                            "uapi_segment_ref": "G2oiNVUqWDKAiRejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAiRejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-10T11:05:00.000+03:00",
+                                    "flightTime": "140",
+                                    "travelTime": "825",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "140"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-10T20:50:00.000+04:00",
+                            "arrival": "2025-03-11T00:50:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2214",
+                            "uapi_segment_ref": "G2oiNVUqWDKA8PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA8PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "IST",
+                                    "departure": "2025-03-10T20:50:00.000+04:00",
+                                    "flightTime": "300",
+                                    "travelTime": "595",
+                                    "equipment": "73H"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "73H"
+                            ],
+                            "duration": [
+                                "300"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT12H5M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "DXB",
+                            "group": 1,
+                            "departure": "2025-03-20T01:50:00.000+03:00",
+                            "arrival": "2025-03-20T07:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2215",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-20T01:50:00.000+03:00",
+                                    "flightTime": "285",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "285"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-20T12:15:00.000+04:00",
+                            "arrival": "2025-03-20T13:55:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2072",
+                            "uapi_segment_ref": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-20T12:15:00.000+04:00",
+                                    "flightTime": "160",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD2118.40",
+                "basePrice": "USD1487.00",
+                "taxes": "USD631.40",
+                "uapi_fare_reference": "G2oiNVUqWDKAhRejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD1105.70",
+                "basePrice": "USD779.00",
+                "taxes": "USD326.70"
+            },
+            "CNN": {
+                "totalPrice": "USD898.70",
+                "basePrice": "USD594.00",
+                "taxes": "USD304.70"
+            },
+            "INF": {
+                "totalPrice": "USD114.00",
+                "basePrice": "USD114.00",
+                "taxes": "USD0.00"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD2118.40",
+        "basePrice": "USD1487.00",
+        "taxes": "USD631.40",
+        "platingCarrier": "EK",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P0DT23H30M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "DXB",
+                            "group": 0,
+                            "departure": "2025-03-10T14:55:00.000+03:00",
+                            "arrival": "2025-03-10T18:15:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2073",
+                            "uapi_segment_ref": "G2oiNVUqWDKA6PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA6PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-10T14:55:00.000+03:00",
+                                    "flightTime": "140",
+                                    "travelTime": "595",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "140"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-11T10:15:00.000+04:00",
+                            "arrival": "2025-03-11T14:25:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": null,
+                            "flightNumber": "123",
+                            "uapi_segment_ref": "G2oiNVUqWDKAXQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAXQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "3",
+                                    "destination": "IST",
+                                    "departure": "2025-03-11T10:15:00.000+04:00",
+                                    "flightTime": "310",
+                                    "travelTime": "1410",
+                                    "equipment": "388"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "388"
+                            ],
+                            "duration": [
+                                "310"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT12H5M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "DXB",
+                            "group": 1,
+                            "departure": "2025-03-20T01:50:00.000+03:00",
+                            "arrival": "2025-03-20T07:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2215",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-20T01:50:00.000+03:00",
+                                    "flightTime": "285",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "285"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-20T12:15:00.000+04:00",
+                            "arrival": "2025-03-20T13:55:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2072",
+                            "uapi_segment_ref": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-20T12:15:00.000+04:00",
+                                    "flightTime": "160",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD2118.40",
+                "basePrice": "USD1487.00",
+                "taxes": "USD631.40",
+                "uapi_fare_reference": "G2oiNVUqWDKA+RejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD1105.70",
+                "basePrice": "USD779.00",
+                "taxes": "USD326.70"
+            },
+            "CNN": {
+                "totalPrice": "USD898.70",
+                "basePrice": "USD594.00",
+                "taxes": "USD304.70"
+            },
+            "INF": {
+                "totalPrice": "USD114.00",
+                "basePrice": "USD114.00",
+                "taxes": "USD0.00"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD2118.40",
+        "basePrice": "USD1487.00",
+        "taxes": "USD631.40",
+        "platingCarrier": "EK",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P1DT2H40M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "DXB",
+                            "group": 0,
+                            "departure": "2025-03-10T14:55:00.000+03:00",
+                            "arrival": "2025-03-10T18:15:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2073",
+                            "uapi_segment_ref": "G2oiNVUqWDKA6PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA6PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-10T14:55:00.000+03:00",
+                                    "flightTime": "140",
+                                    "travelTime": "595",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "140"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-11T13:30:00.000+04:00",
+                            "arrival": "2025-03-11T17:35:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2094",
+                            "uapi_segment_ref": "G2oiNVUqWDKAaSejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAaSejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "IST",
+                                    "departure": "2025-03-11T13:30:00.000+04:00",
+                                    "flightTime": "305",
+                                    "travelTime": "1600",
+                                    "equipment": "73H"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "73H"
+                            ],
+                            "duration": [
+                                "305"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT12H5M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "DXB",
+                            "group": 1,
+                            "departure": "2025-03-20T01:50:00.000+03:00",
+                            "arrival": "2025-03-20T07:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2215",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-20T01:50:00.000+03:00",
+                                    "flightTime": "285",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "285"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-20T12:15:00.000+04:00",
+                            "arrival": "2025-03-20T13:55:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2072",
+                            "uapi_segment_ref": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-20T12:15:00.000+04:00",
+                                    "flightTime": "160",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD2118.40",
+                "basePrice": "USD1487.00",
+                "taxes": "USD631.40",
+                "uapi_fare_reference": "G2oiNVUqWDKAZSejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD1105.70",
+                "basePrice": "USD779.00",
+                "taxes": "USD326.70"
+            },
+            "CNN": {
+                "totalPrice": "USD898.70",
+                "basePrice": "USD594.00",
+                "taxes": "USD304.70"
+            },
+            "INF": {
+                "totalPrice": "USD114.00",
+                "basePrice": "USD114.00",
+                "taxes": "USD0.00"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD2118.40",
+        "basePrice": "USD1487.00",
+        "taxes": "USD631.40",
+        "platingCarrier": "EK",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P1DT3H0M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "DXB",
+                            "group": 0,
+                            "departure": "2025-03-10T11:25:00.000+03:00",
+                            "arrival": "2025-03-10T14:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": null,
+                            "flightNumber": "942",
+                            "uapi_segment_ref": "G2oiNVUqWDKAUQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAUQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "3",
+                                    "departure": "2025-03-10T11:25:00.000+03:00",
+                                    "flightTime": "130",
+                                    "travelTime": "805",
+                                    "equipment": "77L"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "77L"
+                            ],
+                            "duration": [
+                                "130"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-11T10:15:00.000+04:00",
+                            "arrival": "2025-03-11T14:25:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": null,
+                            "flightNumber": "123",
+                            "uapi_segment_ref": "G2oiNVUqWDKAXQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAXQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "3",
+                                    "destination": "IST",
+                                    "departure": "2025-03-11T10:15:00.000+04:00",
+                                    "flightTime": "310",
+                                    "travelTime": "1410",
+                                    "equipment": "388"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "388"
+                            ],
+                            "duration": [
+                                "310"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT12H5M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "DXB",
+                            "group": 1,
+                            "departure": "2025-03-20T01:50:00.000+03:00",
+                            "arrival": "2025-03-20T07:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2215",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-20T01:50:00.000+03:00",
+                                    "flightTime": "285",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "285"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-20T12:15:00.000+04:00",
+                            "arrival": "2025-03-20T13:55:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2072",
+                            "uapi_segment_ref": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-20T12:15:00.000+04:00",
+                                    "flightTime": "160",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "L",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 25
+                                }
+                            ],
+                            "fareBasisCode": "LEEEPIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD2118.40",
+                "basePrice": "USD1487.00",
+                "taxes": "USD631.40",
+                "uapi_fare_reference": "G2oiNVUqWDKA2SejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD1105.70",
+                "basePrice": "USD779.00",
+                "taxes": "USD326.70"
+            },
+            "CNN": {
+                "totalPrice": "USD898.70",
+                "basePrice": "USD594.00",
+                "taxes": "USD304.70"
+            },
+            "INF": {
+                "totalPrice": "USD114.00",
+                "basePrice": "USD114.00",
+                "taxes": "USD0.00"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD2403.40",
+        "basePrice": "USD1772.00",
+        "taxes": "USD631.40",
+        "platingCarrier": "EK",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P0DT9H55M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "DXB",
+                            "group": 0,
+                            "departure": "2025-03-10T14:55:00.000+03:00",
+                            "arrival": "2025-03-10T18:15:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2073",
+                            "uapi_segment_ref": "G2oiNVUqWDKA6PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA6PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-10T14:55:00.000+03:00",
+                                    "flightTime": "140",
+                                    "travelTime": "595",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "140"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-10T20:50:00.000+04:00",
+                            "arrival": "2025-03-11T00:50:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2214",
+                            "uapi_segment_ref": "G2oiNVUqWDKA8PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA8PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "IST",
+                                    "departure": "2025-03-10T20:50:00.000+04:00",
+                                    "flightTime": "300",
+                                    "travelTime": "595",
+                                    "equipment": "73H"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "73H"
+                            ],
+                            "duration": [
+                                "300"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT12H5M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "DXB",
+                            "group": 1,
+                            "departure": "2025-03-20T01:50:00.000+03:00",
+                            "arrival": "2025-03-20T07:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2215",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-20T01:50:00.000+03:00",
+                                    "flightTime": "285",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "285"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-20T12:15:00.000+04:00",
+                            "arrival": "2025-03-20T13:55:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2072",
+                            "uapi_segment_ref": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-20T12:15:00.000+04:00",
+                                    "flightTime": "160",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD2403.40",
+                "basePrice": "USD1772.00",
+                "taxes": "USD631.40",
+                "uapi_fare_reference": "G2oiNVUqWDKA5TejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD1259.70",
+                "basePrice": "USD933.00",
+                "taxes": "USD326.70"
+            },
+            "CNN": {
+                "totalPrice": "USD1014.70",
+                "basePrice": "USD710.00",
+                "taxes": "USD304.70"
+            },
+            "INF": {
+                "totalPrice": "USD129.00",
+                "basePrice": "USD129.00",
+                "taxes": "USD0.00"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD2403.40",
+        "basePrice": "USD1772.00",
+        "taxes": "USD631.40",
+        "platingCarrier": "EK",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P0DT13H25M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "DXB",
+                            "group": 0,
+                            "departure": "2025-03-10T11:25:00.000+03:00",
+                            "arrival": "2025-03-10T14:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": null,
+                            "flightNumber": "942",
+                            "uapi_segment_ref": "G2oiNVUqWDKAUQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAUQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "3",
+                                    "departure": "2025-03-10T11:25:00.000+03:00",
+                                    "flightTime": "130",
+                                    "travelTime": "805",
+                                    "equipment": "77L"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "77L"
+                            ],
+                            "duration": [
+                                "130"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-10T20:50:00.000+04:00",
+                            "arrival": "2025-03-11T00:50:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2214",
+                            "uapi_segment_ref": "G2oiNVUqWDKA8PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA8PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "IST",
+                                    "departure": "2025-03-10T20:50:00.000+04:00",
+                                    "flightTime": "300",
+                                    "travelTime": "595",
+                                    "equipment": "73H"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "73H"
+                            ],
+                            "duration": [
+                                "300"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT12H5M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "DXB",
+                            "group": 1,
+                            "departure": "2025-03-20T01:50:00.000+03:00",
+                            "arrival": "2025-03-20T07:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2215",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-20T01:50:00.000+03:00",
+                                    "flightTime": "285",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "285"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-20T12:15:00.000+04:00",
+                            "arrival": "2025-03-20T13:55:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2072",
+                            "uapi_segment_ref": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-20T12:15:00.000+04:00",
+                                    "flightTime": "160",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD2403.40",
+                "basePrice": "USD1772.00",
+                "taxes": "USD631.40",
+                "uapi_fare_reference": "G2oiNVUqWDKA2UejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD1259.70",
+                "basePrice": "USD933.00",
+                "taxes": "USD326.70"
+            },
+            "CNN": {
+                "totalPrice": "USD1014.70",
+                "basePrice": "USD710.00",
+                "taxes": "USD304.70"
+            },
+            "INF": {
+                "totalPrice": "USD129.00",
+                "basePrice": "USD129.00",
+                "taxes": "USD0.00"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD2403.40",
+        "basePrice": "USD1772.00",
+        "taxes": "USD631.40",
+        "platingCarrier": "EK",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P0DT13H45M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "DXB",
+                            "group": 0,
+                            "departure": "2025-03-10T11:05:00.000+03:00",
+                            "arrival": "2025-03-10T14:25:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2403",
+                            "uapi_segment_ref": "G2oiNVUqWDKAiRejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAiRejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-10T11:05:00.000+03:00",
+                                    "flightTime": "140",
+                                    "travelTime": "825",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "140"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-10T20:50:00.000+04:00",
+                            "arrival": "2025-03-11T00:50:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2214",
+                            "uapi_segment_ref": "G2oiNVUqWDKA8PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA8PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "IST",
+                                    "departure": "2025-03-10T20:50:00.000+04:00",
+                                    "flightTime": "300",
+                                    "travelTime": "595",
+                                    "equipment": "73H"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "73H"
+                            ],
+                            "duration": [
+                                "300"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT12H5M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "DXB",
+                            "group": 1,
+                            "departure": "2025-03-20T01:50:00.000+03:00",
+                            "arrival": "2025-03-20T07:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2215",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-20T01:50:00.000+03:00",
+                                    "flightTime": "285",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "285"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-20T12:15:00.000+04:00",
+                            "arrival": "2025-03-20T13:55:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2072",
+                            "uapi_segment_ref": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-20T12:15:00.000+04:00",
+                                    "flightTime": "160",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD2403.40",
+                "basePrice": "USD1772.00",
+                "taxes": "USD631.40",
+                "uapi_fare_reference": "G2oiNVUqWDKARVejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD1259.70",
+                "basePrice": "USD933.00",
+                "taxes": "USD326.70"
+            },
+            "CNN": {
+                "totalPrice": "USD1014.70",
+                "basePrice": "USD710.00",
+                "taxes": "USD304.70"
+            },
+            "INF": {
+                "totalPrice": "USD129.00",
+                "basePrice": "USD129.00",
+                "taxes": "USD0.00"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD2403.40",
+        "basePrice": "USD1772.00",
+        "taxes": "USD631.40",
+        "platingCarrier": "EK",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P0DT23H30M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "DXB",
+                            "group": 0,
+                            "departure": "2025-03-10T14:55:00.000+03:00",
+                            "arrival": "2025-03-10T18:15:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2073",
+                            "uapi_segment_ref": "G2oiNVUqWDKA6PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA6PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-10T14:55:00.000+03:00",
+                                    "flightTime": "140",
+                                    "travelTime": "595",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "140"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-11T10:15:00.000+04:00",
+                            "arrival": "2025-03-11T14:25:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": null,
+                            "flightNumber": "123",
+                            "uapi_segment_ref": "G2oiNVUqWDKAXQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAXQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "3",
+                                    "destination": "IST",
+                                    "departure": "2025-03-11T10:15:00.000+04:00",
+                                    "flightTime": "310",
+                                    "travelTime": "1410",
+                                    "equipment": "388"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "388"
+                            ],
+                            "duration": [
+                                "310"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT12H5M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "DXB",
+                            "group": 1,
+                            "departure": "2025-03-20T01:50:00.000+03:00",
+                            "arrival": "2025-03-20T07:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2215",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-20T01:50:00.000+03:00",
+                                    "flightTime": "285",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "285"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-20T12:15:00.000+04:00",
+                            "arrival": "2025-03-20T13:55:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2072",
+                            "uapi_segment_ref": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-20T12:15:00.000+04:00",
+                                    "flightTime": "160",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD2403.40",
+                "basePrice": "USD1772.00",
+                "taxes": "USD631.40",
+                "uapi_fare_reference": "G2oiNVUqWDKAsVejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD1259.70",
+                "basePrice": "USD933.00",
+                "taxes": "USD326.70"
+            },
+            "CNN": {
+                "totalPrice": "USD1014.70",
+                "basePrice": "USD710.00",
+                "taxes": "USD304.70"
+            },
+            "INF": {
+                "totalPrice": "USD129.00",
+                "basePrice": "USD129.00",
+                "taxes": "USD0.00"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD2403.40",
+        "basePrice": "USD1772.00",
+        "taxes": "USD631.40",
+        "platingCarrier": "EK",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P1DT2H40M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "DXB",
+                            "group": 0,
+                            "departure": "2025-03-10T14:55:00.000+03:00",
+                            "arrival": "2025-03-10T18:15:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2073",
+                            "uapi_segment_ref": "G2oiNVUqWDKA6PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA6PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-10T14:55:00.000+03:00",
+                                    "flightTime": "140",
+                                    "travelTime": "595",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "140"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-11T13:30:00.000+04:00",
+                            "arrival": "2025-03-11T17:35:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2094",
+                            "uapi_segment_ref": "G2oiNVUqWDKAaSejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAaSejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "IST",
+                                    "departure": "2025-03-11T13:30:00.000+04:00",
+                                    "flightTime": "305",
+                                    "travelTime": "1600",
+                                    "equipment": "73H"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "73H"
+                            ],
+                            "duration": [
+                                "305"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT12H5M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "DXB",
+                            "group": 1,
+                            "departure": "2025-03-20T01:50:00.000+03:00",
+                            "arrival": "2025-03-20T07:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2215",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-20T01:50:00.000+03:00",
+                                    "flightTime": "285",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "285"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-20T12:15:00.000+04:00",
+                            "arrival": "2025-03-20T13:55:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2072",
+                            "uapi_segment_ref": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-20T12:15:00.000+04:00",
+                                    "flightTime": "160",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD2403.40",
+                "basePrice": "USD1772.00",
+                "taxes": "USD631.40",
+                "uapi_fare_reference": "G2oiNVUqWDKAHWejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD1259.70",
+                "basePrice": "USD933.00",
+                "taxes": "USD326.70"
+            },
+            "CNN": {
+                "totalPrice": "USD1014.70",
+                "basePrice": "USD710.00",
+                "taxes": "USD304.70"
+            },
+            "INF": {
+                "totalPrice": "USD129.00",
+                "basePrice": "USD129.00",
+                "taxes": "USD0.00"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD2403.40",
+        "basePrice": "USD1772.00",
+        "taxes": "USD631.40",
+        "platingCarrier": "EK",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P1DT3H0M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "DXB",
+                            "group": 0,
+                            "departure": "2025-03-10T11:25:00.000+03:00",
+                            "arrival": "2025-03-10T14:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": null,
+                            "flightNumber": "942",
+                            "uapi_segment_ref": "G2oiNVUqWDKAUQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAUQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "3",
+                                    "departure": "2025-03-10T11:25:00.000+03:00",
+                                    "flightTime": "130",
+                                    "travelTime": "805",
+                                    "equipment": "77L"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "77L"
+                            ],
+                            "duration": [
+                                "130"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-11T10:15:00.000+04:00",
+                            "arrival": "2025-03-11T14:25:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": null,
+                            "flightNumber": "123",
+                            "uapi_segment_ref": "G2oiNVUqWDKAXQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAXQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "3",
+                                    "destination": "IST",
+                                    "departure": "2025-03-11T10:15:00.000+04:00",
+                                    "flightTime": "310",
+                                    "travelTime": "1410",
+                                    "equipment": "388"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "388"
+                            ],
+                            "duration": [
+                                "310"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT12H5M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "DXB",
+                            "group": 1,
+                            "departure": "2025-03-20T01:50:00.000+03:00",
+                            "arrival": "2025-03-20T07:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2215",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-20T01:50:00.000+03:00",
+                                    "flightTime": "285",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "285"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-20T12:15:00.000+04:00",
+                            "arrival": "2025-03-20T13:55:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2072",
+                            "uapi_segment_ref": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-20T12:15:00.000+04:00",
+                                    "flightTime": "160",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD2403.40",
+                "basePrice": "USD1772.00",
+                "taxes": "USD631.40",
+                "uapi_fare_reference": "G2oiNVUqWDKAiWejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD1259.70",
+                "basePrice": "USD933.00",
+                "taxes": "USD326.70"
+            },
+            "CNN": {
+                "totalPrice": "USD1014.70",
+                "basePrice": "USD710.00",
+                "taxes": "USD304.70"
+            },
+            "INF": {
+                "totalPrice": "USD129.00",
+                "basePrice": "USD129.00",
+                "taxes": "USD0.00"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD2403.40",
+        "basePrice": "USD1772.00",
+        "taxes": "USD631.40",
+        "platingCarrier": "EK",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P1DT3H20M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "DXB",
+                            "group": 0,
+                            "departure": "2025-03-10T11:05:00.000+03:00",
+                            "arrival": "2025-03-10T14:25:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2403",
+                            "uapi_segment_ref": "G2oiNVUqWDKAiRejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAiRejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-10T11:05:00.000+03:00",
+                                    "flightTime": "140",
+                                    "travelTime": "825",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "140"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-11T10:15:00.000+04:00",
+                            "arrival": "2025-03-11T14:25:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": null,
+                            "flightNumber": "123",
+                            "uapi_segment_ref": "G2oiNVUqWDKAXQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAXQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "3",
+                                    "destination": "IST",
+                                    "departure": "2025-03-11T10:15:00.000+04:00",
+                                    "flightTime": "310",
+                                    "travelTime": "1410",
+                                    "equipment": "388"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "388"
+                            ],
+                            "duration": [
+                                "310"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT12H5M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "DXB",
+                            "group": 1,
+                            "departure": "2025-03-20T01:50:00.000+03:00",
+                            "arrival": "2025-03-20T07:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2215",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-20T01:50:00.000+03:00",
+                                    "flightTime": "285",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "285"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-20T12:15:00.000+04:00",
+                            "arrival": "2025-03-20T13:55:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2072",
+                            "uapi_segment_ref": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-20T12:15:00.000+04:00",
+                                    "flightTime": "160",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD2403.40",
+                "basePrice": "USD1772.00",
+                "taxes": "USD631.40",
+                "uapi_fare_reference": "G2oiNVUqWDKA9WejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD1259.70",
+                "basePrice": "USD933.00",
+                "taxes": "USD326.70"
+            },
+            "CNN": {
+                "totalPrice": "USD1014.70",
+                "basePrice": "USD710.00",
+                "taxes": "USD304.70"
+            },
+            "INF": {
+                "totalPrice": "USD129.00",
+                "basePrice": "USD129.00",
+                "taxes": "USD0.00"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    },
+    {
+        "totalPrice": "USD2403.40",
+        "basePrice": "USD1772.00",
+        "taxes": "USD631.40",
+        "platingCarrier": "EK",
+        "directions": [
+            [
+                {
+                    "from": "BGW",
+                    "to": "IST",
+                    "duration": "P1DT3H35M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "BGW",
+                            "to": "DXB",
+                            "group": 0,
+                            "departure": "2025-03-10T14:55:00.000+03:00",
+                            "arrival": "2025-03-10T18:15:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2073",
+                            "uapi_segment_ref": "G2oiNVUqWDKA6PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA6PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "BGW",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-10T14:55:00.000+03:00",
+                                    "flightTime": "140",
+                                    "travelTime": "595",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "140"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "IST",
+                            "group": 0,
+                            "departure": "2025-03-11T14:20:00.000+04:00",
+                            "arrival": "2025-03-11T18:30:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": null,
+                            "flightNumber": "121",
+                            "uapi_segment_ref": "G2oiNVUqWDKAMUejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAMUejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "3",
+                                    "destination": "IST",
+                                    "departure": "2025-03-11T14:20:00.000+04:00",
+                                    "flightTime": "310",
+                                    "travelTime": "1655",
+                                    "equipment": "77W"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "77W"
+                            ],
+                            "duration": [
+                                "310"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ],
+            [
+                {
+                    "from": "IST",
+                    "to": "BGW",
+                    "duration": "P0DT12H5M0S",
+                    "platingCarrier": "EK",
+                    "segments": [
+                        {
+                            "from": "IST",
+                            "to": "DXB",
+                            "group": 1,
+                            "departure": "2025-03-20T01:50:00.000+03:00",
+                            "arrival": "2025-03-20T07:35:00.000+04:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2215",
+                            "uapi_segment_ref": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKA+PejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "IST",
+                                    "destination": "DXB",
+                                    "destinationTerminal": "2",
+                                    "departure": "2025-03-20T01:50:00.000+03:00",
+                                    "flightTime": "285",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "285"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        },
+                        {
+                            "from": "DXB",
+                            "to": "BGW",
+                            "group": 1,
+                            "departure": "2025-03-20T12:15:00.000+04:00",
+                            "arrival": "2025-03-20T13:55:00.000+03:00",
+                            "airline": "EK",
+                            "operatingAirline": "FZ",
+                            "flightNumber": "2072",
+                            "uapi_segment_ref": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "uapiSegmentReference": "G2oiNVUqWDKAAQejJAAAAA==",
+                            "details": [
+                                {
+                                    "origin": "DXB",
+                                    "originTerminal": "2",
+                                    "destination": "BGW",
+                                    "departure": "2025-03-20T12:15:00.000+04:00",
+                                    "flightTime": "160",
+                                    "travelTime": "725",
+                                    "equipment": "7M8"
+                                }
+                            ],
+                            "serviceClass": "Economy",
+                            "plane": [
+                                "7M8"
+                            ],
+                            "duration": [
+                                "160"
+                            ],
+                            "techStops": [],
+                            "bookingClass": "K",
+                            "baggage": [
+                                {
+                                    "units": "kilograms",
+                                    "amount": 30
+                                }
+                            ],
+                            "fareBasisCode": "KEEESIQ1",
+                            "seatsAvailable": 9
+                        }
+                    ]
+                }
+            ]
+        ],
+        "bookingComponents": [
+            {
+                "totalPrice": "USD2403.40",
+                "basePrice": "USD1772.00",
+                "taxes": "USD631.40",
+                "uapi_fare_reference": "G2oiNVUqWDKAYXejJAAAAA=="
+            }
+        ],
+        "passengerFares": {
+            "ADT": {
+                "totalPrice": "USD1259.70",
+                "basePrice": "USD933.00",
+                "taxes": "USD326.70"
+            },
+            "CNN": {
+                "totalPrice": "USD1014.70",
+                "basePrice": "USD710.00",
+                "taxes": "USD304.70"
+            },
+            "INF": {
+                "totalPrice": "USD129.00",
+                "basePrice": "USD129.00",
+                "taxes": "USD0.00"
+            }
+        },
+        "passengerCounts": {
+            "ADT": 1,
+            "CNN": 1,
+            "INF": 1
+        }
+    }
+]

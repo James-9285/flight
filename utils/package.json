@@ -1,0 +1,16 @@
+{
+  "name": "my-uapi-service",
+  "version": "1.0.0",
+  "description": "Custom Travelport UAPI library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "request": "^2.88.2",
+    "xml2js": "^0.6.2"
+  }
+}
