@@ -104,6 +104,8 @@ async function requestFareRules(combinedSegments, requestId) {
 
 exports.test = async (req, res) => {
   try {
+
+    
     // 1) استقبال معطيات البحث من الريكويست
     const { from, to, departureDate, returnDate } = req.body;
 

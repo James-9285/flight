@@ -3,6 +3,7 @@ const express = require('express');
 const router = express.Router();
 const flightController = require('../controllers/flightController');
 
+
 // مثال على المسارات المطلوب إنشاؤها (سنوضّح low-fare-search كأساس للفكرة):
 router.post('/low-fare-search', flightController.lowFareSearch);
 
@@ -17,5 +18,6 @@ router.post('/ticket', flightController.ticketFlight);
 router.post('/cancel', flightController.cancelFlight);
 router.post('/void', flightController.voidFlight);
 router.post('/get-book', flightController.getBookData);
+
 
 module.exports = router;

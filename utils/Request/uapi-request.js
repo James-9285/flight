@@ -131,7 +131,6 @@ module.exports = function uapiRequest(
           if (debugMode) {
             log('Error Response SOAP: ', pd.json(error));
           }
-
           return Promise.reject(new RequestSoapError.SoapRequestError(error));
         });
     };

@@ -2,6 +2,7 @@
  * controllers/flightController.js
  *************************************************/
 const flightService = require('../services/flightService');
+const travelportService = require('../services/travelportService');
 
 /**
  * يستقبل طلب البحث بنفس البنية JSON:
@@ -22,6 +23,7 @@ const flightService = require('../services/flightService');
 exports.lowFareSearch = async (req, res) => {
   try {
     const searchData = req.body;
+    console.log("request_data=>",searchData);
 
     // استدعاء الدالة من flightService
     const response = await flightService.lowFareSearch(searchData);

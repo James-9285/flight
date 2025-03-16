@@ -29115,3 +29115,2937 @@ Please refer to the terms and conditions of the fare
 ]
 2025-03-12 15:40:05 [info]: Returning cached results for trace_id=Th39PaWsZzdj
 2025-03-12 15:40:11 [info]: Returning cached results for trace_id=Th39PaWsZzdj
+2025-03-15 02:42:32 [info]: [uapi-json LOG]: Input params  {
+  "legs": [
+    {
+      "from": "SIN",
+      "to": "BKK",
+      "departureDate": "2025-03-20"
+    },
+    {
+      "from": "BKK",
+      "to": "SIN",
+      "departureDate": "2025-03-30"
+    }
+  ],
+  "passengers": {
+    "ADT": 1,
+    "CNN": 1,
+    "INF": 1
+  },
+  "cabins": [
+    "Economy"
+  ],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 10,
+  "requestId": "4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60"
+}
+2025-03-15 02:42:33 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 02:42:33 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-20"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-30"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers
+                    MaxSolutions="10"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <com:SearchPassenger Code="CNN" Age="9" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+            <com:SearchPassenger Code="INF" 
+              xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+              <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+            </air:LowFareSearchReq>
+          </soap:Body>
+        </soap:Envelope>
+
+2025-03-15 02:42:36 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 02:42:36 [error]: RequestSoapError.SoapRequestError: Error during request to SOAP API. Check url validity
+    at /home/james/Downloads/Flight_Project/utils/Request/uapi-request.js:135:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async searchFlights (/home/james/Downloads/Flight_Project/controllers/testController.js:53:10)
+    at async exports.test (/home/james/Downloads/Flight_Project/controllers/testController.js:111:25)
+2025-03-15 02:56:17 [info]: [uapi-json LOG]: Input params  {
+  "legs": [
+    {
+      "from": "SIN",
+      "to": "BKK",
+      "departureDate": "2025-03-20"
+    },
+    {
+      "from": "BKK",
+      "to": "SIN",
+      "departureDate": "2025-03-30"
+    }
+  ],
+  "passengers": {
+    "ADT": 1,
+    "CNN": 1,
+    "INF": 1
+  },
+  "cabins": [
+    "Economy"
+  ],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 10,
+  "requestId": "4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60"
+}
+2025-03-15 02:56:17 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 02:56:17 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-20"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-30"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers
+                    MaxSolutions="10"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <com:SearchPassenger Code="CNN" Age="9" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+            <com:SearchPassenger Code="INF" 
+              xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+              <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+            </air:LowFareSearchReq>
+          </soap:Body>
+        </soap:Envelope>
+
+2025-03-15 02:56:19 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 02:56:19 [error]: RequestSoapError.SoapRequestError: Error during request to SOAP API. Check url validity
+    at /home/james/Downloads/Flight_Project/utils/Request/uapi-request.js:135:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async searchFlights (/home/james/Downloads/Flight_Project/controllers/testController.js:53:10)
+    at async exports.test (/home/james/Downloads/Flight_Project/controllers/testController.js:111:25)
+2025-03-15 12:20:48 [info]: [uapi-json LOG]: Input params  {
+  "legs": [
+    {
+      "from": "SIN",
+      "to": "BKK",
+      "departureDate": "2025-03-20"
+    },
+    {
+      "from": "BKK",
+      "to": "SIN",
+      "departureDate": "2025-03-30"
+    }
+  ],
+  "passengers": {
+    "ADT": 1,
+    "CNN": 1,
+    "INF": 1
+  },
+  "cabins": [
+    "Economy"
+  ],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 10,
+  "requestId": "4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60"
+}
+2025-03-15 12:20:48 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 12:20:48 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-20"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-30"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers
+                    MaxSolutions="10"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <com:SearchPassenger Code="CNN" Age="9" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+            <com:SearchPassenger Code="INF" 
+              xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+              <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+            </air:LowFareSearchReq>
+          </soap:Body>
+        </soap:Envelope>
+
+2025-03-15 12:20:51 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 12:20:51 [error]: RequestSoapError.SoapRequestError: Error during request to SOAP API. Check url validity
+    at /home/james/Downloads/Flight_Project/utils/Request/uapi-request.js:135:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async searchFlights (/home/james/Downloads/Flight_Project/controllers/testController.js:53:10)
+    at async exports.test (/home/james/Downloads/Flight_Project/controllers/testController.js:111:25)
+2025-03-15 12:22:24 [info]: [uapi-json LOG]: Input params  {
+  "segments": [
+    {
+      "from": "BGW",
+      "to": "AMM",
+      "group": 0,
+      "departure": "2025-03-10T06:55:00.000+03:00",
+      "arrival": "2025-03-10T08:45:00.000+03:00",
+      "airline": "RJ",
+      "operatingAirline": null,
+      "flightNumber": "811",
+      "uapi_segment_ref": "G2oiNVUqWDKA4NejJAAAAA==",
+      "uapiSegmentReference": "G2oiNVUqWDKA4NejJAAAAA==",
+      "details": [
+        {
+          "origin": "BGW",
+          "destination": "AMM",
+          "departure": "2025-03-10T06:55:00.000+03:00",
+          "flightTime": "110",
+          "travelTime": "370",
+          "equipment": "321"
+        }
+      ],
+      "serviceClass": "Economy",
+      "plane": [
+        "321"
+      ],
+      "duration": [
+        "110"
+      ],
+      "techStops": [],
+      "bookingClass": "M",
+      "baggage": [
+        {
+          "units": "piece",
+          "amount": 1
+        }
+      ],
+      "fareBasisCode": "MSXEQ",
+      "seatsAvailable": 9
+    },
+    {
+      "from": "AMM",
+      "to": "IST",
+      "group": 0,
+      "departure": "2025-03-10T10:25:00.000+03:00",
+      "arrival": "2025-03-10T13:05:00.000+03:00",
+      "airline": "RJ",
+      "operatingAirline": null,
+      "flightNumber": "165",
+      "uapi_segment_ref": "G2oiNVUqWDKA6NejJAAAAA==",
+      "uapiSegmentReference": "G2oiNVUqWDKA6NejJAAAAA==",
+      "details": [
+        {
+          "origin": "AMM",
+          "destination": "IST",
+          "departure": "2025-03-10T10:25:00.000+03:00",
+          "flightTime": "160",
+          "travelTime": "370",
+          "equipment": "E95"
+        }
+      ],
+      "serviceClass": "Economy",
+      "plane": [
+        "E95"
+      ],
+      "duration": [
+        "160"
+      ],
+      "techStops": [],
+      "bookingClass": "M",
+      "baggage": [
+        {
+          "units": "piece",
+          "amount": 1
+        }
+      ],
+      "fareBasisCode": "MSXEQ",
+      "seatsAvailable": 9
+    },
+    {
+      "from": "IST",
+      "to": "AMM",
+      "group": 1,
+      "departure": "2025-03-20T20:55:00.000+03:00",
+      "arrival": "2025-03-20T23:20:00.000+03:00",
+      "airline": "RJ",
+      "operatingAirline": null,
+      "flightNumber": "168",
+      "uapi_segment_ref": "G2oiNVUqWDKA8NejJAAAAA==",
+      "uapiSegmentReference": "G2oiNVUqWDKA8NejJAAAAA==",
+      "details": [
+        {
+          "origin": "IST",
+          "destination": "AMM",
+          "departure": "2025-03-20T20:55:00.000+03:00",
+          "flightTime": "145",
+          "travelTime": "420",
+          "equipment": "320"
+        }
+      ],
+      "serviceClass": "Economy",
+      "plane": [
+        "320"
+      ],
+      "duration": [
+        "145"
+      ],
+      "techStops": [],
+      "bookingClass": "M",
+      "baggage": [
+        {
+          "units": "piece",
+          "amount": 1
+        }
+      ],
+      "fareBasisCode": "MSXEQ",
+      "seatsAvailable": 9
+    },
+    {
+      "from": "AMM",
+      "to": "BGW",
+      "group": 1,
+      "departure": "2025-03-21T02:20:00.000+03:00",
+      "arrival": "2025-03-21T03:55:00.000+03:00",
+      "airline": "RJ",
+      "operatingAirline": null,
+      "flightNumber": "810",
+      "uapi_segment_ref": "G2oiNVUqWDKA+NejJAAAAA==",
+      "uapiSegmentReference": "G2oiNVUqWDKA+NejJAAAAA==",
+      "details": [
+        {
+          "origin": "AMM",
+          "destination": "BGW",
+          "departure": "2025-03-21T02:20:00.000+03:00",
+          "flightTime": "95",
+          "travelTime": "420",
+          "equipment": "788"
+        }
+      ],
+      "serviceClass": "Economy",
+      "plane": [
+        "788"
+      ],
+      "duration": [
+        "95"
+      ],
+      "techStops": [],
+      "bookingClass": "M",
+      "baggage": [
+        {
+          "units": "piece",
+          "amount": 1
+        }
+      ],
+      "fareBasisCode": "MSXEQ",
+      "seatsAvailable": 9
+    }
+  ],
+  "passengers": {
+    "ADT": 1
+  },
+  "long": true,
+  "requestId": "asd-123-4D322-Awr32",
+  "fetchFareRules": true
+}
+2025-03-15 12:22:24 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 12:22:24 [info]: [uapi-json LOG]: Request XML:  
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <AirPriceReq AuthorizedBy="user" TargetBranch="" TraceId="asd-123-4D322-Awr32"  FareRuleType="long"  
+         
+      xmlns="http://www.travelport.com/schema/air_v52_0" 
+      xmlns:com="http://www.travelport.com/schema/common_v52_0">
+      <com:BillingPointOfSaleInfo OriginApplication="UAPI"/>
+      <AirItinerary>
+        <AirSegment 
+                    Key="G2oiNVUqWDKA4NejJAAAAA=="
+                    ArrivalTime="2025-03-10T08:45:00.000+03:00"
+                    DepartureTime="2025-03-10T06:55:00.000+03:00"
+                    Carrier="RJ"
+                     ClassOfService="M" 
+                    CabinClass="Economy"
+                    Origin="BGW"
+                    Destination="AMM"
+                    ETicketability="Yes"
+                    Equipment="321"
+                    FlightNumber="811"
+                    LinkAvailability="true"
+                    PolledAvailabilityOption="Polled avail exists"
+                    ProviderCode="1G" 
+                    Group="0"></AirSegment>
+        <AirSegment 
+                    Key="G2oiNVUqWDKA6NejJAAAAA=="
+                    ArrivalTime="2025-03-10T13:05:00.000+03:00"
+                    DepartureTime="2025-03-10T10:25:00.000+03:00"
+                    Carrier="RJ"
+                     ClassOfService="M" 
+                    CabinClass="Economy"
+                    Origin="AMM"
+                    Destination="IST"
+                    ETicketability="Yes"
+                    Equipment="E95"
+                    FlightNumber="165"
+                    LinkAvailability="true"
+                    PolledAvailabilityOption="Polled avail exists"
+                    ProviderCode="1G" 
+                    Group="0"></AirSegment>
+        <AirSegment 
+                    Key="G2oiNVUqWDKA8NejJAAAAA=="
+                    ArrivalTime="2025-03-20T23:20:00.000+03:00"
+                    DepartureTime="2025-03-20T20:55:00.000+03:00"
+                    Carrier="RJ"
+                     ClassOfService="M" 
+                    CabinClass="Economy"
+                    Origin="IST"
+                    Destination="AMM"
+                    ETicketability="Yes"
+                    Equipment="320"
+                    FlightNumber="168"
+                    LinkAvailability="true"
+                    PolledAvailabilityOption="Polled avail exists"
+                    ProviderCode="1G" 
+                    Group="1"></AirSegment>
+        <AirSegment 
+                    Key="G2oiNVUqWDKA+NejJAAAAA=="
+                    ArrivalTime="2025-03-21T03:55:00.000+03:00"
+                    DepartureTime="2025-03-21T02:20:00.000+03:00"
+                    Carrier="RJ"
+                     ClassOfService="M" 
+                    CabinClass="Economy"
+                    Origin="AMM"
+                    Destination="BGW"
+                    ETicketability="Yes"
+                    Equipment="788"
+                    FlightNumber="810"
+                    LinkAvailability="true"
+                    PolledAvailabilityOption="Polled avail exists"
+                    ProviderCode="1G" 
+                    Group="1"></AirSegment>
+      </AirItinerary>
+      <AirPricingModifiers InventoryRequestType="DirectAccess"/>
+      <com:SearchPassenger Key="PmWISQVVm02uvJ_0" BookingTravelerRef="PmWISQVVm02uvJ_0" Code="ADT"  />
+      <AirPricingCommand>
+        <AirSegmentPricingModifiers AirSegmentRef="G2oiNVUqWDKA4NejJAAAAA==">
+          <PermittedBookingCodes>
+            <BookingCode Code="M" />
+          </PermittedBookingCodes>
+        </AirSegmentPricingModifiers>
+        <AirSegmentPricingModifiers AirSegmentRef="G2oiNVUqWDKA6NejJAAAAA==">
+          <PermittedBookingCodes>
+            <BookingCode Code="M" />
+          </PermittedBookingCodes>
+        </AirSegmentPricingModifiers>
+        <AirSegmentPricingModifiers AirSegmentRef="G2oiNVUqWDKA8NejJAAAAA==">
+          <PermittedBookingCodes>
+            <BookingCode Code="M" />
+          </PermittedBookingCodes>
+        </AirSegmentPricingModifiers>
+        <AirSegmentPricingModifiers AirSegmentRef="G2oiNVUqWDKA+NejJAAAAA==">
+          <PermittedBookingCodes>
+            <BookingCode Code="M" />
+          </PermittedBookingCodes>
+        </AirSegmentPricingModifiers>
+      </AirPricingCommand>
+      <com:FormOfPayment Type="Credit"/>
+    </AirPriceReq>
+  </soap:Body>
+</soap:Envelope>
+
+2025-03-15 12:22:26 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 12:22:47 [info]: [uapi-json LOG]: Input params  {
+  "segments": [
+    {
+      "from": "BGW",
+      "to": "AMM",
+      "group": 0,
+      "departure": "2025-03-10T06:55:00.000+03:00",
+      "arrival": "2025-03-10T08:45:00.000+03:00",
+      "airline": "RJ",
+      "operatingAirline": null,
+      "flightNumber": "811",
+      "uapi_segment_ref": "G2oiNVUqWDKA4NejJAAAAA==",
+      "uapiSegmentReference": "G2oiNVUqWDKA4NejJAAAAA==",
+      "details": [
+        {
+          "origin": "BGW",
+          "destination": "AMM",
+          "departure": "2025-03-10T06:55:00.000+03:00",
+          "flightTime": "110",
+          "travelTime": "370",
+          "equipment": "321"
+        }
+      ],
+      "serviceClass": "Economy",
+      "plane": [
+        "321"
+      ],
+      "duration": [
+        "110"
+      ],
+      "techStops": [],
+      "bookingClass": "M",
+      "baggage": [
+        {
+          "units": "piece",
+          "amount": 1
+        }
+      ],
+      "fareBasisCode": "MSXEQ",
+      "seatsAvailable": 9
+    },
+    {
+      "from": "AMM",
+      "to": "IST",
+      "group": 0,
+      "departure": "2025-03-10T10:25:00.000+03:00",
+      "arrival": "2025-03-10T13:05:00.000+03:00",
+      "airline": "RJ",
+      "operatingAirline": null,
+      "flightNumber": "165",
+      "uapi_segment_ref": "G2oiNVUqWDKA6NejJAAAAA==",
+      "uapiSegmentReference": "G2oiNVUqWDKA6NejJAAAAA==",
+      "details": [
+        {
+          "origin": "AMM",
+          "destination": "IST",
+          "departure": "2025-03-10T10:25:00.000+03:00",
+          "flightTime": "160",
+          "travelTime": "370",
+          "equipment": "E95"
+        }
+      ],
+      "serviceClass": "Economy",
+      "plane": [
+        "E95"
+      ],
+      "duration": [
+        "160"
+      ],
+      "techStops": [],
+      "bookingClass": "M",
+      "baggage": [
+        {
+          "units": "piece",
+          "amount": 1
+        }
+      ],
+      "fareBasisCode": "MSXEQ",
+      "seatsAvailable": 9
+    },
+    {
+      "from": "IST",
+      "to": "AMM",
+      "group": 1,
+      "departure": "2025-03-20T20:55:00.000+03:00",
+      "arrival": "2025-03-20T23:20:00.000+03:00",
+      "airline": "RJ",
+      "operatingAirline": null,
+      "flightNumber": "168",
+      "uapi_segment_ref": "G2oiNVUqWDKA8NejJAAAAA==",
+      "uapiSegmentReference": "G2oiNVUqWDKA8NejJAAAAA==",
+      "details": [
+        {
+          "origin": "IST",
+          "destination": "AMM",
+          "departure": "2025-03-20T20:55:00.000+03:00",
+          "flightTime": "145",
+          "travelTime": "420",
+          "equipment": "320"
+        }
+      ],
+      "serviceClass": "Economy",
+      "plane": [
+        "320"
+      ],
+      "duration": [
+        "145"
+      ],
+      "techStops": [],
+      "bookingClass": "M",
+      "baggage": [
+        {
+          "units": "piece",
+          "amount": 1
+        }
+      ],
+      "fareBasisCode": "MSXEQ",
+      "seatsAvailable": 9
+    },
+    {
+      "from": "AMM",
+      "to": "BGW",
+      "group": 1,
+      "departure": "2025-03-21T02:20:00.000+03:00",
+      "arrival": "2025-03-21T03:55:00.000+03:00",
+      "airline": "RJ",
+      "operatingAirline": null,
+      "flightNumber": "810",
+      "uapi_segment_ref": "G2oiNVUqWDKA+NejJAAAAA==",
+      "uapiSegmentReference": "G2oiNVUqWDKA+NejJAAAAA==",
+      "details": [
+        {
+          "origin": "AMM",
+          "destination": "BGW",
+          "departure": "2025-03-21T02:20:00.000+03:00",
+          "flightTime": "95",
+          "travelTime": "420",
+          "equipment": "788"
+        }
+      ],
+      "serviceClass": "Economy",
+      "plane": [
+        "788"
+      ],
+      "duration": [
+        "95"
+      ],
+      "techStops": [],
+      "bookingClass": "M",
+      "baggage": [
+        {
+          "units": "piece",
+          "amount": 1
+        }
+      ],
+      "fareBasisCode": "MSXEQ",
+      "seatsAvailable": 9
+    }
+  ],
+  "passengers": {
+    "ADT": 1
+  },
+  "long": true,
+  "requestId": "asd-123-4D322-Awr32",
+  "fetchFareRules": true
+}
+2025-03-15 12:22:47 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 12:22:47 [info]: [uapi-json LOG]: Request XML:  
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <AirPriceReq AuthorizedBy="user" TargetBranch="" TraceId="asd-123-4D322-Awr32"  FareRuleType="long"  
+         
+      xmlns="http://www.travelport.com/schema/air_v52_0" 
+      xmlns:com="http://www.travelport.com/schema/common_v52_0">
+      <com:BillingPointOfSaleInfo OriginApplication="UAPI"/>
+      <AirItinerary>
+        <AirSegment 
+                    Key="G2oiNVUqWDKA4NejJAAAAA=="
+                    ArrivalTime="2025-03-10T08:45:00.000+03:00"
+                    DepartureTime="2025-03-10T06:55:00.000+03:00"
+                    Carrier="RJ"
+                     ClassOfService="M" 
+                    CabinClass="Economy"
+                    Origin="BGW"
+                    Destination="AMM"
+                    ETicketability="Yes"
+                    Equipment="321"
+                    FlightNumber="811"
+                    LinkAvailability="true"
+                    PolledAvailabilityOption="Polled avail exists"
+                    ProviderCode="1G" 
+                    Group="0"></AirSegment>
+        <AirSegment 
+                    Key="G2oiNVUqWDKA6NejJAAAAA=="
+                    ArrivalTime="2025-03-10T13:05:00.000+03:00"
+                    DepartureTime="2025-03-10T10:25:00.000+03:00"
+                    Carrier="RJ"
+                     ClassOfService="M" 
+                    CabinClass="Economy"
+                    Origin="AMM"
+                    Destination="IST"
+                    ETicketability="Yes"
+                    Equipment="E95"
+                    FlightNumber="165"
+                    LinkAvailability="true"
+                    PolledAvailabilityOption="Polled avail exists"
+                    ProviderCode="1G" 
+                    Group="0"></AirSegment>
+        <AirSegment 
+                    Key="G2oiNVUqWDKA8NejJAAAAA=="
+                    ArrivalTime="2025-03-20T23:20:00.000+03:00"
+                    DepartureTime="2025-03-20T20:55:00.000+03:00"
+                    Carrier="RJ"
+                     ClassOfService="M" 
+                    CabinClass="Economy"
+                    Origin="IST"
+                    Destination="AMM"
+                    ETicketability="Yes"
+                    Equipment="320"
+                    FlightNumber="168"
+                    LinkAvailability="true"
+                    PolledAvailabilityOption="Polled avail exists"
+                    ProviderCode="1G" 
+                    Group="1"></AirSegment>
+        <AirSegment 
+                    Key="G2oiNVUqWDKA+NejJAAAAA=="
+                    ArrivalTime="2025-03-21T03:55:00.000+03:00"
+                    DepartureTime="2025-03-21T02:20:00.000+03:00"
+                    Carrier="RJ"
+                     ClassOfService="M" 
+                    CabinClass="Economy"
+                    Origin="AMM"
+                    Destination="BGW"
+                    ETicketability="Yes"
+                    Equipment="788"
+                    FlightNumber="810"
+                    LinkAvailability="true"
+                    PolledAvailabilityOption="Polled avail exists"
+                    ProviderCode="1G" 
+                    Group="1"></AirSegment>
+      </AirItinerary>
+      <AirPricingModifiers InventoryRequestType="DirectAccess"/>
+      <com:SearchPassenger Key="PmWISQVVm02uvJ_0" BookingTravelerRef="PmWISQVVm02uvJ_0" Code="ADT"  />
+      <AirPricingCommand>
+        <AirSegmentPricingModifiers AirSegmentRef="G2oiNVUqWDKA4NejJAAAAA==">
+          <PermittedBookingCodes>
+            <BookingCode Code="M" />
+          </PermittedBookingCodes>
+        </AirSegmentPricingModifiers>
+        <AirSegmentPricingModifiers AirSegmentRef="G2oiNVUqWDKA6NejJAAAAA==">
+          <PermittedBookingCodes>
+            <BookingCode Code="M" />
+          </PermittedBookingCodes>
+        </AirSegmentPricingModifiers>
+        <AirSegmentPricingModifiers AirSegmentRef="G2oiNVUqWDKA8NejJAAAAA==">
+          <PermittedBookingCodes>
+            <BookingCode Code="M" />
+          </PermittedBookingCodes>
+        </AirSegmentPricingModifiers>
+        <AirSegmentPricingModifiers AirSegmentRef="G2oiNVUqWDKA+NejJAAAAA==">
+          <PermittedBookingCodes>
+            <BookingCode Code="M" />
+          </PermittedBookingCodes>
+        </AirSegmentPricingModifiers>
+      </AirPricingCommand>
+      <com:FormOfPayment Type="Credit"/>
+    </AirPriceReq>
+  </soap:Body>
+</soap:Envelope>
+
+2025-03-15 12:22:49 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 12:24:04 [info]: [uapi-json LOG]: Input params  {
+  "legs": [
+    {
+      "from": "SIN",
+      "to": "BKK",
+      "departureDate": "2025-03-20"
+    },
+    {
+      "from": "BKK",
+      "to": "SIN",
+      "departureDate": "2025-03-30"
+    }
+  ],
+  "passengers": {
+    "ADT": 1,
+    "CNN": 1,
+    "INF": 1
+  },
+  "cabins": [
+    "Economy"
+  ],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 10,
+  "requestId": "4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60"
+}
+2025-03-15 12:24:05 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 12:24:05 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-20"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-30"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers
+                    MaxSolutions="10"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <com:SearchPassenger Code="CNN" Age="9" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+            <com:SearchPassenger Code="INF" 
+              xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+              <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+            </air:LowFareSearchReq>
+          </soap:Body>
+        </soap:Envelope>
+
+2025-03-15 12:24:07 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 12:24:07 [error]: RequestSoapError.SoapRequestError: Error during request to SOAP API. Check url validity
+    at /home/james/Downloads/Flight_Project/utils/Request/uapi-request.js:135:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async searchFlights (/home/james/Downloads/Flight_Project/controllers/testController.js:53:10)
+    at async exports.test (/home/james/Downloads/Flight_Project/controllers/testController.js:111:25)
+2025-03-15 12:24:33 [info]: [uapi-json LOG]: Input params  {
+  "legs": [
+    {
+      "from": "SIN",
+      "to": "BKK",
+      "departureDate": "2025-03-20"
+    },
+    {
+      "from": "BKK",
+      "to": "SIN",
+      "departureDate": "2025-03-30"
+    }
+  ],
+  "passengers": {
+    "ADT": 1,
+    "CNN": 1,
+    "INF": 1
+  },
+  "cabins": [
+    "Economy"
+  ],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 10,
+  "requestId": "4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60"
+}
+2025-03-15 12:24:33 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 12:24:33 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-20"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-30"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers
+                    MaxSolutions="10"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <com:SearchPassenger Code="CNN" Age="9" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+            <com:SearchPassenger Code="INF" 
+              xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+              <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+            </air:LowFareSearchReq>
+          </soap:Body>
+        </soap:Envelope>
+
+2025-03-15 12:24:34 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 12:24:34 [error]: RequestSoapError.SoapRequestError: Error during request to SOAP API. Check url validity
+    at /home/james/Downloads/Flight_Project/utils/Request/uapi-request.js:135:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async searchFlights (/home/james/Downloads/Flight_Project/controllers/testController.js:53:10)
+    at async exports.test (/home/james/Downloads/Flight_Project/controllers/testController.js:111:25)
+2025-03-15 12:28:38 [info]: [uapi-json LOG]: Input params  {
+  "legs": [
+    {
+      "from": "SIN",
+      "to": "BKK",
+      "departureDate": "2025-03-20"
+    },
+    {
+      "from": "BKK",
+      "to": "SIN",
+      "departureDate": "2025-03-30"
+    }
+  ],
+  "passengers": {
+    "ADT": 1,
+    "CNN": 1,
+    "INF": 1
+  },
+  "cabins": [
+    "Economy"
+  ],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 10,
+  "requestId": "4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60"
+}
+2025-03-15 12:28:38 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 12:28:38 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-20"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-30"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers
+                    MaxSolutions="10"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <com:SearchPassenger Code="CNN" Age="9" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+            <com:SearchPassenger Code="INF" 
+              xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+              <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+            </air:LowFareSearchReq>
+          </soap:Body>
+        </soap:Envelope>
+
+2025-03-15 12:28:39 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 12:28:39 [error]: RequestSoapError.SoapRequestError: Error during request to SOAP API. Check url validity
+    at /home/james/Downloads/Flight_Project/utils/Request/uapi-request.js:135:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async searchFlights (/home/james/Downloads/Flight_Project/controllers/testController.js:53:10)
+    at async exports.test (/home/james/Downloads/Flight_Project/controllers/testController.js:111:25)
+2025-03-15 12:29:08 [info]: [uapi-json LOG]: Input params  {
+  "legs": [
+    {
+      "from": "SIN",
+      "to": "BKK",
+      "departureDate": "2025-03-20"
+    },
+    {
+      "from": "BKK",
+      "to": "SIN",
+      "departureDate": "2025-03-30"
+    }
+  ],
+  "passengers": {
+    "ADT": 1,
+    "CNN": 1,
+    "INF": 1
+  },
+  "cabins": [
+    "Economy"
+  ],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 10,
+  "requestId": "4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60"
+}
+2025-03-15 12:29:08 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 12:29:08 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-20"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-30"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers
+                    MaxSolutions="10"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <com:SearchPassenger Code="CNN" Age="9" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+            <com:SearchPassenger Code="INF" 
+              xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+              <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+            </air:LowFareSearchReq>
+          </soap:Body>
+        </soap:Envelope>
+
+2025-03-15 12:29:10 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 12:29:10 [error]: RequestSoapError.SoapRequestError: Error during request to SOAP API. Check url validity
+    at /home/james/Downloads/Flight_Project/utils/Request/uapi-request.js:135:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async searchFlights (/home/james/Downloads/Flight_Project/controllers/testController.js:53:10)
+    at async exports.test (/home/james/Downloads/Flight_Project/controllers/testController.js:111:25)
+2025-03-15 12:48:54 [info]: [uapi-json LOG]: Input params  {
+  "legs": [
+    {
+      "from": "SIN",
+      "to": "BKK",
+      "departureDate": "2025-03-20"
+    },
+    {
+      "from": "BKK",
+      "to": "SIN",
+      "departureDate": "2025-03-30"
+    }
+  ],
+  "passengers": {
+    "ADT": 1,
+    "CNN": 1,
+    "INF": 1
+  },
+  "cabins": [
+    "Economy"
+  ],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 10,
+  "requestId": "4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60"
+}
+2025-03-15 12:48:55 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 12:48:55 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-20"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-30"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers
+                    MaxSolutions="10"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <com:SearchPassenger Code="CNN" Age="9" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+            <com:SearchPassenger Code="INF" 
+              xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+              <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+            </air:LowFareSearchReq>
+          </soap:Body>
+        </soap:Envelope>
+
+2025-03-15 12:48:58 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 12:48:58 [error]: RequestSoapError.SoapRequestError: Error during request to SOAP API. Check url validity
+    at /home/james/Downloads/Flight_Project/utils/Request/uapi-request.js:135:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async searchFlights (/home/james/Downloads/Flight_Project/controllers/testController.js:53:10)
+    at async exports.test (/home/james/Downloads/Flight_Project/controllers/testController.js:111:25)
+2025-03-15 12:50:59 [info]: [uapi-json LOG]: Input params  {
+  "legs": [
+    {
+      "from": "SIN",
+      "to": "BKK",
+      "departureDate": "2025-03-20"
+    },
+    {
+      "from": "BKK",
+      "to": "SIN",
+      "departureDate": "2025-03-30"
+    }
+  ],
+  "passengers": {
+    "ADT": 1,
+    "CNN": 1,
+    "INF": 1
+  },
+  "cabins": [
+    "Economy"
+  ],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 10,
+  "requestId": "4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60"
+}
+2025-03-15 12:50:59 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 12:50:59 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-20"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-30"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers
+                    MaxSolutions="10"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <com:SearchPassenger Code="CNN" Age="9" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+            <com:SearchPassenger Code="INF" 
+              xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+              <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+            </air:LowFareSearchReq>
+          </soap:Body>
+        </soap:Envelope>
+
+2025-03-15 12:51:01 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 12:51:01 [error]: RequestSoapError.SoapRequestError: Error during request to SOAP API. Check url validity
+    at /home/james/Downloads/Flight_Project/utils/Request/uapi-request.js:135:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async searchFlights (/home/james/Downloads/Flight_Project/controllers/testController.js:53:10)
+    at async exports.test (/home/james/Downloads/Flight_Project/controllers/testController.js:111:25)
+2025-03-15 12:59:47 [info]: [uapi-json LOG]: Input params  {
+  "legs": [
+    {
+      "from": "SIN",
+      "to": "BKK",
+      "departureDate": "2025-03-20"
+    },
+    {
+      "from": "BKK",
+      "to": "SIN",
+      "departureDate": "2025-03-30"
+    }
+  ],
+  "passengers": {
+    "ADT": 1,
+    "CNN": 1,
+    "INF": 1
+  },
+  "cabins": [
+    "Economy"
+  ],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 10,
+  "requestId": "4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60"
+}
+2025-03-15 12:59:47 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 12:59:47 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-20"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-30"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers
+                    MaxSolutions="10"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <com:SearchPassenger Code="CNN" Age="9" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+            <com:SearchPassenger Code="INF" 
+              xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+              <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+            </air:LowFareSearchReq>
+          </soap:Body>
+        </soap:Envelope>
+
+2025-03-15 12:59:48 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 12:59:48 [error]: RequestSoapError.SoapRequestError: Error during request to SOAP API. Check url validity
+    at /home/james/Downloads/Flight_Project/utils/Request/uapi-request.js:135:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async searchFlights (/home/james/Downloads/Flight_Project/controllers/testController.js:53:10)
+    at async exports.test (/home/james/Downloads/Flight_Project/controllers/testController.js:111:25)
+2025-03-15 13:03:35 [info]: [uapi-json LOG]: Input params  {
+  "legs": [
+    {
+      "from": "SIN",
+      "to": "BKK",
+      "departureDate": "2025-03-20"
+    },
+    {
+      "from": "BKK",
+      "to": "SIN",
+      "departureDate": "2025-03-30"
+    }
+  ],
+  "passengers": {
+    "ADT": 1,
+    "CNN": 1,
+    "INF": 1
+  },
+  "cabins": [
+    "Economy"
+  ],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 10,
+  "requestId": "4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60"
+}
+2025-03-15 13:03:35 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 13:03:35 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-20"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-30"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers
+                    MaxSolutions="10"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <com:SearchPassenger Code="CNN" Age="9" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+            <com:SearchPassenger Code="INF" 
+              xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+              <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+            </air:LowFareSearchReq>
+          </soap:Body>
+        </soap:Envelope>
+
+2025-03-15 13:03:37 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 13:03:37 [error]: RequestSoapError.SoapRequestError: Error during request to SOAP API. Check url validity
+    at /home/james/Downloads/Flight_Project/utils/Request/uapi-request.js:135:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async searchFlights (/home/james/Downloads/Flight_Project/controllers/testController.js:53:10)
+    at async exports.test (/home/james/Downloads/Flight_Project/controllers/testController.js:113:25)
+2025-03-15 13:08:13 [info]: [uapi-json LOG]: Input params  {
+  "legs": [
+    {
+      "from": "SIN",
+      "to": "BKK",
+      "departureDate": "2025-03-20"
+    },
+    {
+      "from": "BKK",
+      "to": "SIN",
+      "departureDate": "2025-03-30"
+    }
+  ],
+  "passengers": {
+    "ADT": 1,
+    "CNN": 1,
+    "INF": 1
+  },
+  "cabins": [
+    "Economy"
+  ],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 10,
+  "requestId": "4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60"
+}
+2025-03-15 13:08:13 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 13:08:13 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-20"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-30"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers
+                    MaxSolutions="10"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <com:SearchPassenger Code="CNN" Age="9" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+            <com:SearchPassenger Code="INF" 
+              xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+              <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+            </air:LowFareSearchReq>
+          </soap:Body>
+        </soap:Envelope>
+
+2025-03-15 13:08:15 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 13:08:15 [error]: RequestSoapError.SoapRequestError: Error during request to SOAP API. Check url validity
+    at /home/james/Downloads/Flight_Project/utils/Request/uapi-request.js:135:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async searchFlights (/home/james/Downloads/Flight_Project/controllers/testController.js:53:10)
+    at async exports.test (/home/james/Downloads/Flight_Project/controllers/testController.js:113:25)
+2025-03-15 13:08:31 [info]: [uapi-json LOG]: Input params  {
+  "legs": [
+    {
+      "from": "SIN",
+      "to": "BKK",
+      "departureDate": "2025-03-20"
+    },
+    {
+      "from": "BKK",
+      "to": "SIN",
+      "departureDate": "2025-03-30"
+    }
+  ],
+  "passengers": {
+    "ADT": 1,
+    "CNN": 1,
+    "INF": 1
+  },
+  "cabins": [
+    "Economy"
+  ],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 10,
+  "requestId": "4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60"
+}
+2025-03-15 13:08:31 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 13:08:31 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-20"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-30"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers
+                    MaxSolutions="10"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <com:SearchPassenger Code="CNN" Age="9" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+            <com:SearchPassenger Code="INF" 
+              xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+              <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+            </air:LowFareSearchReq>
+          </soap:Body>
+        </soap:Envelope>
+
+2025-03-15 13:08:33 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 13:08:33 [error]: RequestSoapError.SoapRequestError: Error during request to SOAP API. Check url validity
+    at /home/james/Downloads/Flight_Project/utils/Request/uapi-request.js:135:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async searchFlights (/home/james/Downloads/Flight_Project/controllers/testController.js:53:10)
+    at async exports.test (/home/james/Downloads/Flight_Project/controllers/testController.js:113:25)
+2025-03-15 13:08:41 [info]: [uapi-json LOG]: Input params  {
+  "legs": [
+    {
+      "from": "SIN",
+      "to": "BKK",
+      "departureDate": "2025-03-20"
+    },
+    {
+      "from": "BKK",
+      "to": "SIN",
+      "departureDate": "2025-03-30"
+    }
+  ],
+  "passengers": {
+    "ADT": 1,
+    "CNN": 1,
+    "INF": 1
+  },
+  "cabins": [
+    "Economy"
+  ],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 10,
+  "requestId": "4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60"
+}
+2025-03-15 13:08:41 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 13:08:41 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-20"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-30"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers
+                    MaxSolutions="10"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <com:SearchPassenger Code="CNN" Age="9" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+            <com:SearchPassenger Code="INF" 
+              xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+              <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+            </air:LowFareSearchReq>
+          </soap:Body>
+        </soap:Envelope>
+
+2025-03-15 13:08:42 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 13:08:42 [error]: RequestSoapError.SoapRequestError: Error during request to SOAP API. Check url validity
+    at /home/james/Downloads/Flight_Project/utils/Request/uapi-request.js:135:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async searchFlights (/home/james/Downloads/Flight_Project/controllers/testController.js:53:10)
+    at async exports.test (/home/james/Downloads/Flight_Project/controllers/testController.js:113:25)
+2025-03-15 13:11:30 [info]: [uapi-json LOG]: Input params  {
+  "legs": [
+    {
+      "from": "SIN",
+      "to": "BKK",
+      "departureDate": "2025-03-20"
+    },
+    {
+      "from": "BKK",
+      "to": "SIN",
+      "departureDate": "2025-03-30"
+    }
+  ],
+  "passengers": {
+    "ADT": 1,
+    "CNN": 1,
+    "INF": 1
+  },
+  "cabins": [
+    "Economy"
+  ],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 10,
+  "requestId": "4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60"
+}
+2025-03-15 13:11:30 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 13:11:30 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-20"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-30"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers
+                    MaxSolutions="10"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <com:SearchPassenger Code="CNN" Age="9" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+            <com:SearchPassenger Code="INF" 
+              xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+              <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+            </air:LowFareSearchReq>
+          </soap:Body>
+        </soap:Envelope>
+
+2025-03-15 13:11:35 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 13:11:35 [error]: RequestSoapError.SoapRequestError: Error during request to SOAP API. Check url validity
+    at /home/james/Downloads/Flight_Project/utils/Request/uapi-request.js:135:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async searchFlights (/home/james/Downloads/Flight_Project/controllers/testController.js:53:10)
+    at async exports.test (/home/james/Downloads/Flight_Project/controllers/testController.js:113:25)
+2025-03-15 13:12:22 [info]: [uapi-json LOG]: Input params  {
+  "legs": [
+    {
+      "from": "SIN",
+      "to": "BKK",
+      "departureDate": "2025-03-20"
+    },
+    {
+      "from": "BKK",
+      "to": "SIN",
+      "departureDate": "2025-03-30"
+    }
+  ],
+  "passengers": {
+    "ADT": 1,
+    "CNN": 1,
+    "INF": 1
+  },
+  "cabins": [
+    "Economy"
+  ],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 10,
+  "requestId": "4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60"
+}
+2025-03-15 13:12:22 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 13:12:22 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="4e2fd1f8-2221-4b6c-bb6e-cf05c367cf60" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-20"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:SearchAirLeg>
+        <air:SearchOrigin>
+          <com:CityOrAirport Code="BKK" PreferCity="true"/>
+        </air:SearchOrigin>
+        <air:SearchDestination>
+          <com:CityOrAirport Code="SIN" PreferCity="true"/>
+        </air:SearchDestination>
+        <air:SearchDepTime PreferredTime="2025-03-30"/>
+        <air:AirLegModifiers>
+          <air:PreferredCabins>
+            <com:CabinClass Type="Economy"/>
+          </air:PreferredCabins>
+        </air:AirLegModifiers>
+      </air:SearchAirLeg>
+      <air:AirSearchModifiers
+                    MaxSolutions="10"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <com:SearchPassenger Code="CNN" Age="9" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+            <com:SearchPassenger Code="INF" 
+              xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+              <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+            </air:LowFareSearchReq>
+          </soap:Body>
+        </soap:Envelope>
+
+2025-03-15 13:12:24 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 13:12:24 [error]: RequestSoapError.SoapRequestError: Error during request to SOAP API. Check url validity
+    at /home/james/Downloads/Flight_Project/utils/Request/uapi-request.js:135:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async searchFlights (/home/james/Downloads/Flight_Project/controllers/testController.js:53:10)
+    at async exports.test (/home/james/Downloads/Flight_Project/controllers/testController.js:113:25)
+2025-03-15 15:51:21 [info]: [uapi-json LOG]: Input params  {
+  "legs": [],
+  "passengers": {
+    "ADT": 1,
+    "CHD": 0,
+    "INF": 0
+  },
+  "cabins": [],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 20
+}
+2025-03-15 15:51:22 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 15:51:22 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:AirSearchModifiers
+                    MaxSolutions="20"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+        </air:LowFareSearchReq>
+      </soap:Body>
+    </soap:Envelope>
+
+2025-03-15 15:51:24 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 16:05:00 [info]: [uapi-json LOG]: Input params  {
+  "legs": [],
+  "passengers": {
+    "ADT": 1,
+    "CHD": 0,
+    "INF": 0
+  },
+  "cabins": [],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 20
+}
+2025-03-15 16:05:00 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 16:05:00 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:AirSearchModifiers
+                    MaxSolutions="20"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+        </air:LowFareSearchReq>
+      </soap:Body>
+    </soap:Envelope>
+
+2025-03-15 16:05:05 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 16:07:52 [info]: [uapi-json LOG]: Input params  {
+  "legs": [],
+  "passengers": {
+    "ADT": 1,
+    "CHD": 0,
+    "INF": 0
+  },
+  "cabins": [],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 20
+}
+2025-03-15 16:07:52 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 16:07:52 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:AirSearchModifiers
+                    MaxSolutions="20"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+        </air:LowFareSearchReq>
+      </soap:Body>
+    </soap:Envelope>
+
+2025-03-15 16:07:53 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 16:12:51 [info]: [uapi-json LOG]: Input params  {
+  "legs": [],
+  "passengers": {
+    "ADT": 1,
+    "CHD": 0,
+    "INF": 0
+  },
+  "cabins": [],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 20
+}
+2025-03-15 16:12:51 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 16:12:51 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:AirSearchModifiers
+                    MaxSolutions="20"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+        </air:LowFareSearchReq>
+      </soap:Body>
+    </soap:Envelope>
+
+2025-03-15 16:12:52 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 16:24:29 [info]: [uapi-json LOG]: Input params  {
+  "legs": [],
+  "passengers": {
+    "ADT": 1,
+    "CHD": 0,
+    "INF": 0
+  },
+  "cabins": [],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 20
+}
+2025-03-15 16:24:29 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 16:24:29 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:AirSearchModifiers
+                    MaxSolutions="20"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+        </air:LowFareSearchReq>
+      </soap:Body>
+    </soap:Envelope>
+
+2025-03-15 16:24:31 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 16:25:09 [info]: [uapi-json LOG]: Input params  {
+  "legs": [],
+  "passengers": {
+    "ADT": 1,
+    "CHD": 0,
+    "INF": 0
+  },
+  "cabins": [],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 20
+}
+2025-03-15 16:25:09 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 16:25:09 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:AirSearchModifiers
+                    MaxSolutions="20"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+        </air:LowFareSearchReq>
+      </soap:Body>
+    </soap:Envelope>
+
+2025-03-15 16:25:11 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 16:25:22 [info]: [uapi-json LOG]: Input params  {
+  "legs": [],
+  "passengers": {
+    "ADT": 1,
+    "CHD": 0,
+    "INF": 0
+  },
+  "cabins": [],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 20
+}
+2025-03-15 16:25:22 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 16:25:22 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:AirSearchModifiers
+                    MaxSolutions="20"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+        </air:LowFareSearchReq>
+      </soap:Body>
+    </soap:Envelope>
+
+2025-03-15 16:25:24 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 18:34:28 [info]: [uapi-json LOG]: Input params  {
+  "legs": [],
+  "passengers": {
+    "ADT": 1,
+    "CHD": 0,
+    "INF": 0
+  },
+  "cabins": [],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 20
+}
+2025-03-15 18:34:29 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 18:34:29 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:AirSearchModifiers
+                    MaxSolutions="20"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+        </air:LowFareSearchReq>
+      </soap:Body>
+    </soap:Envelope>
+
+2025-03-15 18:34:32 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 18:35:41 [info]: [uapi-json LOG]: Input params  {
+  "legs": [],
+  "passengers": {
+    "ADT": 1,
+    "CHD": 0,
+    "INF": 0
+  },
+  "cabins": [],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 20
+}
+2025-03-15 18:35:41 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 18:35:41 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:AirSearchModifiers
+                    MaxSolutions="20"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+        </air:LowFareSearchReq>
+      </soap:Body>
+    </soap:Envelope>
+
+2025-03-15 18:35:43 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 18:37:24 [info]: [uapi-json LOG]: Input params  {
+  "legs": [],
+  "passengers": {
+    "ADT": 1,
+    "CHD": 0,
+    "INF": 0
+  },
+  "cabins": [],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 20
+}
+2025-03-15 18:37:24 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 18:37:24 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:AirSearchModifiers
+                    MaxSolutions="20"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+        </air:LowFareSearchReq>
+      </soap:Body>
+    </soap:Envelope>
+
+2025-03-15 18:37:26 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 18:50:14 [info]: [uapi-json LOG]: Input params  {
+  "legs": [],
+  "passengers": {
+    "ADT": 1,
+    "CHD": 0,
+    "INF": 0
+  },
+  "cabins": [],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 20
+}
+2025-03-15 18:50:14 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 18:50:14 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:AirSearchModifiers
+                    MaxSolutions="20"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+        </air:LowFareSearchReq>
+      </soap:Body>
+    </soap:Envelope>
+
+2025-03-15 18:50:17 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
+2025-03-15 22:08:14 [info]: [uapi-json LOG]: Input params  {
+  "legs": [],
+  "passengers": {
+    "ADT": 1,
+    "CHD": 0,
+    "INF": 0
+  },
+  "cabins": [],
+  "solutionResult": true,
+  "pricing": {
+    "currency": "USD",
+    "eTicketability": true
+  },
+  "maxSolutions": 20
+}
+2025-03-15 22:08:15 [info]: [uapi-json LOG]: Request URL:  https://apac.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService
+2025-03-15 22:08:15 [info]: [uapi-json LOG]: Request XML:  
+<!--Release 33-->
+<!--Version Dated as of 14/Aug/2015 18:47:44-->
+<!--Air Low Fare Search For Galileo(1G) Request-->
+<soap:Envelope 
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <air:LowFareSearchReq 
+            AuthorizedBy="user" TraceId="" TargetBranch=""
+            ReturnUpsellFare="true"
+            SolutionResult="true"
+            
+      xmlns:air="http://www.travelport.com/schema/air_v52_0"
+            
+      xmlns:com="http://www.travelport.com/schema/common_v52_0"
+            >
+      <com:BillingPointOfSaleInfo OriginApplication="uAPI"/>
+      <air:AirSearchModifiers
+                    MaxSolutions="20"
+            >
+        <air:PreferredProviders>
+          <com:Provider Code="1G" 
+            xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          </air:PreferredProviders>
+        </air:AirSearchModifiers>
+        <com:SearchPassenger Code="ADT" 
+          xmlns:com="http://www.travelport.com/schema/common_v52_0"/>
+          <air:AirPricingModifiers
+                CurrencyType="USD"
+
+                ETicketability="true"
+            />
+        </air:LowFareSearchReq>
+      </soap:Body>
+    </soap:Envelope>
+
+2025-03-15 22:08:18 [info]: [uapi-json LOG]: Error Response SOAP:  {
+  "status": 401,
+  "data": "<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\">    <SOAP-ENV:Body>        <SOAP-ENV:Fault>            <SOAP-ENV:faultcode>76</SOAP-ENV:faultcode>            <SOAP-ENV:faultstring>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:faultstring>            <SOAP-ENV:faultactor>            </SOAP-ENV:faultactor>            <SOAP-ENV:detail>Authentication Result Error Message Response  (76): Authentication credentials are invalid.</SOAP-ENV:detail>        </SOAP-ENV:Fault>    </SOAP-ENV:Body></SOAP-ENV:Envelope>\n"
+}
